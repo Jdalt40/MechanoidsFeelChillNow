@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+	
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="MechanicalCentipede"]</xpath>
+      <value>    
+	  <ignoreConfigErrors>true</ignoreConfigErrors>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="Lancer"]</xpath>
+      <value>    
+	  <ignoreConfigErrors>true</ignoreConfigErrors>
+	  </value>
+	</Operation>
+	<Operation Class="PatchOperationAdd">
+      <xpath>Defs/BodyDef[defName="Scyther"]</xpath>
+      <value>    
+	  <ignoreConfigErrors>true</ignoreConfigErrors>
+	  </value>
+	</Operation>	
+	
+</Patch>
